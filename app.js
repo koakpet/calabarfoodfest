@@ -19,10 +19,6 @@ app.use('/about', require('./routes/about'));
 app.use('/register', require('./routes/register'));
 app.use('/contact', require('./routes/contact'));
 
-app.get('/test', function(req, res){
-  res.render('test');
-});
-
 // Server
 app.listen(process.env.PORT || 3000, function(req, res){
   console.log("Server is running on Port 3000");
