@@ -97,7 +97,7 @@
 @media (max-width:1024px) {
     .nav-branding {
         color: #0f0f0f;
-        font-size: 18px;
+        font-size: 21px;
         font-weight: 420;
     }
 
@@ -128,7 +128,7 @@
         height: 100vh;
         text-align: left;
         transition: 0.6s;
-        padding-top: 45px;
+        padding-top: 42px;
     }
 
     .navbar {
@@ -140,11 +140,11 @@
     }
     
     .nav-item {
-        margin: 12px 39px;
+        margin: 12px 0 15px 39px;
     }
     .nav-link {
-        font-size: 36px;
-        font-weight: 420;
+        font-size: 35px;
+        font-weight: 402;
         text-transform: lowercase;
     }
 

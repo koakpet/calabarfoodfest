@@ -4,21 +4,24 @@
 <section class="contact-section">
     <h2>For any enquiries, or to say hello,<br> get in touch 👋</h2>
 
-    <div class="contact-container">
-        <div class="contact">
-            <div class="contact-info">
-                <h3>Contact Info:</h3>
-                <p>Email: <a href="#">calabarfoodfest@gmail.com</a></p>
-                <p>Phone: <a href="#">+234 80x xxx xxxx</a></p>
-            </div>
+    <div class="contact">
+        <div class="contact-info">
+            <h4>Contact Info:</h4>
+            <p>Email: <a href="#">calabarfoodfest@gmail.com</a></p>
+            <p>Phone: <a href="#">+234 80x xxx xxxx</a></p>
+        </div>
 
-            <div class="contact-form">
-                <form action="/register" method="post">
-
-                </form>
-            </div>
+        <div class="contact-form">
+            <form action="/register" method="post">
+                <input type="text" class="form" name="name" id="name" placeholder="Your Name *">
+                <input type="number" class="form" name="phone" id="phone" placeholder="Your Phone *">
+                <input type="email" class="form" name="email" id="email" placeholder="Your Email **">
+                <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message*"></textarea>
+                <button type="submit">Submit &nbsp;&nbsp;&nbsp;&#x2022;</button>
+            </form>
         </div>
     </div>
+    
 </section>
 
 <%- include('partials/footer') %>

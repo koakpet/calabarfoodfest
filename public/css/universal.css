@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', serif;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 99px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 405;
+}
+
+h3 {
+    font-size: 39px;
+    font-weight: 450;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 450;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    margin: 90px auto;
+}
+
+section a {
+    color: #000000;
+}
+
+.contact-section {
+    padding: 83px 57px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    margin: 132px auto;
+}
+
+.contact-info {
+    width:45vw;
+    margin-right: 75px;
+    overflow: hidden;
+}
+
+.contact-info h4 {
+    padding-bottom: 24px;
+}
+
+.contact-info p {
+    padding-bottom: 6px;
+}
+
+.form {
+    height: 45px;
+    width: 48%;
+    padding: 9px;
+    font-size: 18px;
+    margin: 18px 12px 24px 0;
+    border: none;
+    border-bottom: 1px #696968 solid;
+}
+
+.form:nth-child(3) {
+    width: 98%;
+}
+
+textarea {
+    margin-top: 21px;
+    height: 45px;
+    width: 98%;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px #696968 solid;
+}
+
+.form:hover {
+    border: none;
+    border-bottom: 1px #000000 solid;
+}
+
+.form:focus {
+    border-bottom: 1px #000000 solid;
+}
+
+button {
+    width: 150px;
+    height: 51px;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 0;
+    background-color: #000000;
+    color: #fcfcfc;
+    font-size: 18px;
+    border: none;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+
+@media (max-width:1024px) {
+    .contact-section {
+        padding: 84px 39px;
+    }   
+
+    .contact-section h2 br {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: normal;
+        flex-wrap: wrap;
+        margin: 141px auto;
+    }
+
+    .contact-info {
+        flex: auto;
+    }
+
+    .contact-form {
+        padding-top: 60px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    textarea {
+        margin-top: 21px;
+        width: 100%;
+        font-size: 18px;
+        border: none;
+        border-bottom: 1px #000000 solid;
+    }
+    
+    h1 {
+        font-size: 99px;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 39px;
+        font-weight: 405;
+    }
+    
+    h3 {
+        font-size: 21px;
+        font-weight: 450;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 450;
+    }
+}
