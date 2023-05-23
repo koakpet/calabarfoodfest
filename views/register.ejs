@@ -1,6 +1,30 @@
 <%- include('partials/header') %>
 <%- include('partials/navbar') %>
 
-<h1>This is the registration page</h1>
+<section class="contact-section">
+    <h2>Become a participant</h2>
+
+    <div class="contact">
+        <div class="contact-info">
+            <h4>Contact Info:</h4>
+            <p>Email: <a href="#">calabarfoodfest@gmail.com</a></p>
+            <p>Phone: <a href="#">+234 80x xxx xxxx</a></p>
+        </div>
+
+        <div class="register-form">
+            <form action="/register" method="post">
+                <input type="text" class="form" name="fname" id="name" placeholder="First Name *">
+                <input type="text" class="form" name="lname" id="name" placeholder="Last Name *">
+                <input type="number" class="form" name="phone" id="phone" placeholder="Your Phone *">
+                <input type="text" class="form" name="lname" id="name" placeholder="Company Name">
+                <input type="email" class="form" name="email" id="email" placeholder="Your Email *">
+                
+                
+                <button type="submit">Submit &nbsp;&nbsp;&nbsp;&#x2022;</button>
+            </form>
+        </div>
+    </div>
+    
+</section>
 
 <%- include('partials/footer') %>
